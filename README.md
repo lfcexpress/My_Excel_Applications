@@ -23,7 +23,7 @@
     ### Then, use it to take a picture of the financial statements and then place the frame to the left of the variables for the imputs. This will end the need to scroll down to see the effects of any variable change, then back up to make additional modifications.
     ### I have experience with Excel's PowerPivot and PowerQuery for automation, but it's not on display with this workbook.
 
-*If you see an error, please leave me a note*
+*If you see an error, please leave me a comment*
     
 ## "InventoryReconciliation_Automation.xlsm".- 
     ### The EMS module for Inventory and the General Ledger are reconciled with the use of formulas only. 
@@ -32,4 +32,4 @@
     ### In real-world conditions, consider this workbook as partial automation because there will always be anomalies that need additional consideration.
     ### The datasets are samples extracted from the module for Inventory and the module for the General Ledger.
 
-*If you see an error in this workbook, please leave me a note*
+*If you see an error in this workbook, please leave me a comment.*
