@@ -1,6 +1,6 @@
 # My_Excel_Applications
-## "AutomatedTabs_on Worksheet. xlsm" 
-    ### - I did NOT create this VBA Code. 
+## "AutomatedTabs_on_Worksheet.xlsm" 
+    ### My disclosure. I did NOT create this VBA Code. 
     ### However, I do collect useful VBA. I wish I had started this habit earlier.
     ### This worksheet creates tabs. Press the blue button to see it in action.
     
