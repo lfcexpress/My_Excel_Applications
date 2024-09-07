@@ -27,4 +27,4 @@
     ### The formulas and the diagrame are mine. 
     ### The purpose of this worksheet is to demonstrate how to perform reconciliation between two datasets,
     ### And, to demonstrate how to automate the process.
-    ### In real-world conditions, consider this workbook as partial automation because there will always be anomalies that need additional consideration 
+    ### In real-world conditions, consider this workbook as partial automation because there will always be anomalies that need additional consideration.
