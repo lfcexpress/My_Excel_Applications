@@ -20,11 +20,14 @@
         * The Budgeted Balance Sheet
         * The Statement of Cash Flows is missing. It's on my to-do list.
     ### Excel tip: turn on the camera option hidden in "Options" under "Quick-Access Toolbar." The icon looks like a camera.
-    ### Then, use it to take a picture of the financial statements and place the frame to the left of the input variables. This will end the need to scroll down to see the effects of any variable change.
+    ### Then, use it to take a picture of the financial statements and then place the frame to the left of the variables for the imputs. This will end the need to scroll down to see the effects of any variable change, then back up to make additional modifications.
     ### I have experience with Excel's PowerPivot and PowerQuery for automation, but it's not on display with this workbook.
+    **If you see an error, please leave me a note**
     
 ## "InventoryReconciliation_Automation.xlsm".- 
-    ### The formulas and the diagrame are mine. 
-    ### The purpose of this worksheet is to demonstrate how to perform reconciliation between two datasets,
-    ### And, to demonstrate how to automate the process.
+    ### The EMS module for Inventory and the General Ledger are reconciled with the use of formulas only. 
+    ### The formulas and the diagrame are mine (Tab: "Reconcliliation Report"). 
+    ### The purpose of this worksheet is to demonstrate how to perform reconciliation between two datasets, and to demonstrate how to automate the process.
     ### In real-world conditions, consider this workbook as partial automation because there will always be anomalies that need additional consideration.
+    ### The datasets are samples extracted from the module for Inventory and the module for the General Ledger.
+    **If you see an error in this workbook, please leave me a note**
