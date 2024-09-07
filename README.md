@@ -22,7 +22,8 @@
     ### Then, use it to take a picture of the financial statements and place the frame to the left of the input variables. This will end the need to scroll down to see the effects of any variable change.
     ### I have experience with Excel's PowerPivot and PowerQuery for automation, but it's not on display with this workbook.
     
-## "InventoryReconciliation_Automation.xlsm".- The formulas are all mine. 
+## "InventoryReconciliation_Automation.xlsm".- 
+    ### The formulas and the diagrame are mine. 
     ### The purpose of this worksheet is to demonstrate how to perform reconciliation between two datasets,
     ### And, to demonstrate how to automate the process.
     ### In real-world conditions, consider this workbook as partial automation because there will always be anomalies that need additional consideration 
