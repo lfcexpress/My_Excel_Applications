@@ -5,7 +5,8 @@
     ### This worksheet creates tabs. Press the blue button to see it in action.
     
 ## "Budgeted_automation_Manufacturing.xlsm" 
-    ### I create the formulas from scratch. It displays my understanding of how to automate with Excel formulas only. 
+    ### This is a demonstration of how to use formulas for automation.
+    ### I created the formulas. Let me know if you spot a problem.
     ### Enter the variables in the highlighted cells in Column [C10:C95]. The rest will self-update because the results are formula-driven.
     ### Scroll down to see the budgets for 
         * Revenues, 
