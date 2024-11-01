@@ -1,0 +1,58 @@
+Attribute VB_Name = "SortSheets"
+Sub SortSheets_Ascending()
+
+'1: Suppress screen refresh to eliminate chance of screen flickering
+    Application.ScreenUpdating = False
+
+'2: Declare variables to be used as sheet counters
+    Dim CurrentSheet As Integer
+    Dim PrevSheet As Integer
+  
+'3: Begin looping through the sheets
+    For CurrentSheet = 1 To Sheets.Count
+        For PrevSheet = 1 To CurrentSheet - 1
+    
+'4: Compare the current sheet's name with the previous sheet's name
+            If UCase(Sheets(PrevSheet).Name) > UCase(Sheets(CurrentSheet).Name) Then
+    
+'5: If the previous test is "True", move the current sheet before the previous sheet
+                Sheets(CurrentSheet).Move Before:=Sheets(PrevSheet)
+            End If
+    
+'6 Loop back and repeat until all sheets have been examined
+        Next PrevSheet
+    Next CurrentSheet
+
+'7: Reenable screen refresh
+    Application.ScreenUpdating = True
+
+End Sub
+
+Sub SortSheets_Descending()
+
+'1: Suppress screen refresh to eliminate chance of screen flickering
+    Application.ScreenUpdating = False
+
+'2: Declare variables to be used as sheet counters
+    Dim CurrentSheet As Integer
+    Dim PrevSheet As Integer
+  
+'3: Begin looping through the sheets
+    For CurrentSheet = 1 To Sheets.Count
+        For PrevSheet = 1 To CurrentSheet - 1
+    
+'4: Compare the current sheet's name with the previous sheet's name
+            If UCase(Sheets(PrevSheet).Name) < UCase(Sheets(CurrentSheet).Name) Then
+    
+'5: If the previous test is "True", move the current sheet before the previous sheet
+                Sheets(CurrentSheet).Move Before:=Sheets(PrevSheet)
+            End If
+    
+'6 Loop back and repeat until all sheets have been examined
+        Next PrevSheet
+    Next CurrentSheet
+
+'7: Reenable screen refresh
+    Application.ScreenUpdating = True
+
+End Sub
