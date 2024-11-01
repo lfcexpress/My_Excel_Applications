@@ -1,0 +1,7 @@
+Sub RemoveGridlinesFromAllSheets()
+    Dim ws As Worksheet
+    For Each ws In ThisWorkbook.Worksheets
+        ws.Activate
+        ActiveWindow.DisplayGridlines = False
+    Next ws
+End Sub
